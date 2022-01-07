@@ -28,8 +28,8 @@ class SelectionButton extends StatefulWidget {
 class _SelectionButtonState extends State<SelectionButton> {
   // sawo object
   Sawo sawo = Sawo(
-    apiKey: "213f3267-6aff-42e2-9475-53d6365cba9f",
-    secretKey: "6180be42d487f774297877a1RUR8P9FyAiDPpFuru4dfdpQl",
+    apiKey: "Your API Key",
+    secretKey: "Your Secret key",
   );
 
   // user payload
