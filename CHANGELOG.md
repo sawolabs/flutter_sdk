@@ -1,3 +1,10 @@
+## 0.1.3
+
+Changed:
+
+- Fixed compilation error
+- Fixed library path issue
+
 ## 0.1.2
 
 Changed:
