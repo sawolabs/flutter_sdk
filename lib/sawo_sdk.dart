@@ -149,9 +149,10 @@ class _WebViewContainerState extends State<WebViewContainer> {
                       setState(() {
                         isPageLoading = true;
                       });
-                      _controller.runJavascript(_postJSMessage());
+//                       _controller.runJavascript(_postJSMessage());
                     },
-                    onPageFinished: (String url) {
+                    onPageFinished: (String url) async {
+                      await _controller.runJavascript(_postJSMessage());
                       if (!isError) {
                         setState(() {
                           isPageLoading = false;
