@@ -2,6 +2,7 @@
 
 Changed:
 
+- native ios support
 - Package revamp
 - Deprecated methods replaced
 - Updated to latest dependencies
