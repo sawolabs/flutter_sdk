@@ -1,27 +1,30 @@
 import 'package:flutter/material.dart';
 import 'package:sawo_sdk/sawo_sdk.dart';
 
-
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     title: 'Sawo Login Example',
     home: HomeScreen(),
   ));
 }
 
 class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Sawo login example'),
       ),
-      body: Center(child: SelectionButton()),
+      body: const Center(child: SelectionButton()),
     );
   }
 }
 
 class SelectionButton extends StatefulWidget {
+  const SelectionButton({Key? key}) : super(key: key);
+
   @override
   _SelectionButtonState createState() => _SelectionButtonState();
 }
